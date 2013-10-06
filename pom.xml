@@ -5,6 +5,7 @@
   <artifactId>semagrow-module-archetypes</artifactId>
   <version>1.0.0-rc1</version>
   <packaging>pom</packaging>
+  <name>semagrow-module-archetypes</name>
 
     <properties>
         <distribution.site>/var/www/docs/${project.artifactId}/${project.version}</distribution.site>

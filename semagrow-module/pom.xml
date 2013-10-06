@@ -6,9 +6,11 @@
   <artifactId>semagrow-module-archetypes</artifactId>
   <version>1.0.0-rc1</version>
   </parent>
+
   <groupId>eu.semagrow.stack.archetypes</groupId>
   <artifactId>semagrow-module</artifactId>
   <version>1.0.0-rc1</version>
   <packaging>jar</packaging>
+  <name>semagrow-module</name>
 </project>
 

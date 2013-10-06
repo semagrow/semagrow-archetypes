@@ -10,5 +10,6 @@
   <artifactId>semagrow-multimodule-module</artifactId>
   <version>1.0.0-rc1</version>
   <packaging>jar</packaging>
+  <module>semagrow-multimodule-module</module>
 </project>
 
