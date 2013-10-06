@@ -5,6 +5,28 @@
   <artifactId>semagrow-module-archetypes</artifactId>
   <version>1.0.0-rc1</version>
   <packaging>pom</packaging>
+
+    <properties>
+        <distribution.site>/var/www/docs/${project.artifactId}/${project.version}</distribution.site>
+        <distribution.mvn>/var/www/mvn</distribution.mvn>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/semagrow/semagrow-archetypes.git</connection>
+        <url>https://github.com/semagrow/semagrow-stack-archetypes</url>
+    </scm>
+
+    <distributionManagement>
+        <site>
+            <id>online-documentation</id>
+            <url>file://${distribution.site}</url>
+        </site>
+        <repository>
+            <id>online-mvn-repository</id>
+            <url>file://${distribution.mvn}</url>
+        </repository>
+    </distributionManagement>
+
   <modules>
     <module>semagrow-module</module>
     <module>semagrow-multimodule-module</module>
