@@ -6,9 +6,6 @@
     <requiredProperty key="groupId">
         <defaultValue>eu.semagrow.modules</defaultValue>
     </requiredProperty>
-  </requiredProperties>
-
-<requiredProperties>
     <requiredProperty key="version">
         <defaultValue>1.0.0-rc1</defaultValue>
     </requiredProperty>
