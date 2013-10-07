@@ -6,6 +6,8 @@
     <name>SemaGrow</name>
   </bannerLeft>
   <body>
+    <menu ref="parent"/>
+    <menu ref="modules"/>
     <menu name="${artifactId}">
       <item name="Introduction" href="index.html"/>
       <item name="Building" href="building.html"/>
