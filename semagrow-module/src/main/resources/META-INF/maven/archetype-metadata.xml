@@ -9,6 +9,9 @@
     <requiredProperty key="version">
         <defaultValue>1.0.0-rc1</defaultValue>
     </requiredProperty>
+    <requiredProperty key="package">
+        <defaultValue>eu.semagrow.modules</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
