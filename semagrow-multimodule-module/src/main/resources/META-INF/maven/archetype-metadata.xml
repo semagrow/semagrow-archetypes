@@ -4,7 +4,7 @@
 
   <requiredProperties>
     <requiredProperty key="groupId">
-        <defaultValue>eu.semagrow.modules</defaultValue>
+        <defaultValue>eu.semagrow.stack.modules</defaultValue>
     </requiredProperty>
     <requiredProperty key="version">
         <defaultValue>1.0.0-rc1</defaultValue>
